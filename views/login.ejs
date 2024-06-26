@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend - Login</title>
+    <link rel="stylesheet" href="/public/stylesheets/style.css">
+    <!-- Importing Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+</head>
+<body class="bg-gradient-to-r from-gray-100 to-gray-300 min-h-screen flex items-center justify-center p-4">
+    <div class="flex flex-col md:flex-row bg-white rounded-lg shadow-lg overflow-hidden max-w-4xl w-full">
+        <!-- Left Side Image -->
+        <div class="hidden md:flex md:w-1/2 items-center justify-center bg-gradient-to-r from-blue-500 to-indigo-600">
+            <!-- Placeholder image from Unsplash -->
+            <img src="/public/images/loginIMAGE.avif" alt="Login Account" class="object-cover h-full w-full opacity-75">
+        </div>
+        <!-- Right Side Form -->
+        <div class="w-full md:w-1/2 p-8">
+            <!-- Login Form -->
+            <form action="/login" method="post" class="space-y-6">
+                <!-- Title -->
+                <h3 class="text-4xl font-bold text-center gradient-text">
+                    Login Account
+                </h3>
+                <!-- Email Input -->
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                    <input id="email" class="w-full mt-1 px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition duration-300" 
+                           type="email" placeholder="Enter Email" name="email" required>
+                </div>
+                <!-- Password Input -->
+                <div>
+                    <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                    <input id="password" class="w-full mt-1 px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition duration-300" 
+                           type="password" placeholder="Enter Password" name="password" required>
+                </div>
+                <!-- Submit Button -->
+                <input class="w-full mt-4 px-4 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold rounded-lg shadow-md cursor-pointer hover:bg-gradient-to-l hover:from-blue-600 hover:to-indigo-700 transition duration-300" 
+                       type="submit" value="Login Account">
+                <!-- Register Redirect Link -->
+                <p class="text-sm text-center text-gray-600 mt-2">Don't have an account yet? <a href="/" class="text-blue-500 hover:underline">Register here</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

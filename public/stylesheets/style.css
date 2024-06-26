@@ -1,0 +1,61 @@
+ /* register page */
+ 
+ /* Custom CSS for gradient text */
+ .gradient-text {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Custom CSS for input focus effect */
+input:focus {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+}
+
+
+/* login page */
+
+
+
+ /* Custom CSS for gradient text */
+ .gradient-text {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Custom CSS for input focus effect */
+input:focus {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+}
+
+
+/* profile page */
+
+ /* Custom CSS for gradient text */
+ .gradient-text {
+    background: linear-gradient(90deg, #ff7e5f 0%, #feb47b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Custom CSS for input focus effect */
+input:focus, textarea:focus {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+}
+/* Custom CSS for post container */
+.post:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* edit page */
+
+ /* Custom CSS for gradient text */
+ .gradient-text {
+    background: linear-gradient(90deg, #ff7e5f 0%, #feb47b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Custom CSS for input focus effect */
+input:focus, textarea:focus {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5);
+}
